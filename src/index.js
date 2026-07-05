@@ -25,4 +25,3 @@ nav.addEventListener('click', (e) => {
 })
 
 initialPageLoad();
-// menu();
