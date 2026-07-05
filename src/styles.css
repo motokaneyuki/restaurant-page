@@ -3,6 +3,11 @@
     src: url(/src/assets/fonts/XanasWeddingGroomDemoof22sty-dr1qV.woff2);
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url(/src/assets/fonts/RobotoThin-xjmK.ttf);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -83,6 +88,37 @@ h3 {
 
 #content button:hover {
     font-size: 14px;
+}
+
+
+/* Menu */
+
+.menuImg {
+    background: linear-gradient(rgba(20, 18, 15, 0.65), rgba(20, 18, 15, 0.65)),
+                url('./assets/img/nico-ruzin-rC3iOOPHja8-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.menuTitle {
+    font-size: 150px;
+}
+
+.courseList {
+    font-family: 'roboto';
+    font-size: 15px;
+    letter-spacing: 10px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menuList {
+    font-family: 'roboto';
+    font-size: 32px;
+    letter-spacing: 2px;
+    list-style: none;
 }
 
 * {
