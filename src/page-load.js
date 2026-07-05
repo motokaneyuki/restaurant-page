@@ -6,6 +6,10 @@ export default function() {
     const reservationButton = document.createElement('button');
     const orderButton = document.createElement('button');
 
+    buttonDiv.classList.add('contentButtons');
+    reservationButton.classList.add('coloredButton');
+    orderButton.classList.add('transparentButton');
+
     restaurantName.textContent = 'Lasa Restaurant';
     description.textContent = 'Experience the rich heritage and soulful flavors of the Philippines right in the heart of your neighborhood.';
     reservationButton.textContent = 'Reservation';

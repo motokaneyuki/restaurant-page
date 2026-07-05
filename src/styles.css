@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'cursive';
+    src: url(/src/assets/fonts/XanasWeddingGroomDemoof22sty-dr1qV.woff2);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(rgba(20, 18, 15, 0.65), rgba(20, 18, 15, 0.65)),
+                url('./assets/img/restaurantImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav button {
+    color: rgb(245, 234, 215);
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: 30px;
+    letter-spacing: 2px;
+}
+
+nav button:hover {
+    border-bottom: 1px solid rgb(245, 234, 215);
+    cursor: pointer;
+}
+
+#content {
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+h1 {
+    font-size: 160px;
+    font-weight: 500;
+    font-family: 'cursive';
+    margin-top: 50px;
+}
+
+h3 {
+    color: rgb(245, 234, 215);
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contentButtons {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.coloredButton {
+    border-color: wheat; 
+    background-color: wheat;
+}
+
+.transparentButton {
+    border-color: wheat;
+    background-color: transparent;
+    color: rgb(245, 234, 215);
+}
+
+#content button {
+    width: 180px;
+    height: 40px; 
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#content button:hover {
+    font-size: 14px;
+}
+
+* {
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
