@@ -12,13 +12,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
     background: linear-gradient(rgba(20, 18, 15, 0.65), rgba(20, 18, 15, 0.65)),
                 url('./assets/img/restaurantImage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    padding: 50px;
 }
 
 nav {
@@ -59,7 +58,8 @@ h3 {
     color: rgb(245, 234, 215);
     font-size: 16px;
     font-weight: 100;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'roboto';
+    letter-spacing: 2px;
 }
 
 .contentButtons {
@@ -90,6 +90,9 @@ h3 {
     font-size: 14px;
 }
 
+button {
+    font-family: 'roboto';
+}
 
 /* Menu */
 
